@@ -4,6 +4,10 @@
 
 using namespace std;
 
+int addition(int a, int b){
+    return a + b;
+}
+
 int main()
 {
     vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
@@ -12,5 +16,8 @@ int main()
     {
         cout << word << " ";
     }
-    cout << endl;
+
+    cout << addition(5, 6) << endl;
 }
+
+
