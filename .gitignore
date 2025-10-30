@@ -1,0 +1,6 @@
+*.exe 
+*.dSYM/ 
+*.o 
+*.obj 
+*.out 
+*.log 
